@@ -124,8 +124,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Luis.cs" />
+    <Compile Include="LuisInfo.cs" />
     <Compile Include="MovieInfo.cs" />
     <Compile Include="Movies.cs" />
+    <Compile Include="MovieUtilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
