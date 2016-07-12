@@ -26,6 +26,7 @@ namespace Botsy
                 string responseMessage;
                 if (luisInfo.intents.Count() > 0)
                 {
+                    //intents[0] is the highest probability of intent.
                     switch (luisInfo.intents[0].intent)
                     {
                         case "GetMovieYear":
